@@ -4,7 +4,7 @@ import { cards } from '../../Cards.js';
 
 const Board = () => {
   return <div>
-    {cards.map((c) => <Card card={c} key={id} />)}
+    {cards.map((c) => <Card card={c} key={c.id} />)}
   </div>;
 };
 
