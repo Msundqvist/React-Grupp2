@@ -18,15 +18,25 @@ const Board = () => {
   }
 
   const pair = (name) => {
-    setCards
+    setCards(cards.map((card) => {
+      if (card.name === name)
+        return {...card, show:!card.show}
+      else {return card}
+    
+    }))
+
   }
 
 console.log(cards)
+
+localStorage.setItem("cards", JSON.stringify(cards))
+
   return <div className="board">
-    {cards.map((c) => <Card card={c} key={c.id} cardSelected={cardSelected} />)}
+    {cards.map((c) => <Card card={c} key={c.id} cardSelected={cardSelected} pair={pair} />)}
 
   </div>;
 };
+
 
 
 export default Board;
