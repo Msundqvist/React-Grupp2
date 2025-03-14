@@ -75,7 +75,81 @@ export const cards =
             "imageUrl": "/images/Samwise.jpg",
             "poster": "/images/Poster.jpg"
         },
+        {
+            "id": 13,
+            "name": "Aragorn",
+            "imageUrl": "/images/Aragorn.jpg",
+            "poster": "/images/Poster.jpg"
 
+
+        },
+        {
+            "id": 14,
+            "name": "Arwen",
+            "imageUrl": "/images/Arwen.jpg",
+            "poster": "/images/Poster.jpg"
+        },
+        {
+            "id": 15,
+            "name": "Beers",
+            "imageUrl": "/images/Beers.jpg",
+            "poster": "/images/Poster.jpg"
+        },
+        {
+            "id": 16,
+            "name": "Boromir",
+            "imageUrl": "/images/Boromir.jpg",
+            "poster": "/images/Poster.jpg"
+        },
+        {
+            "id": 17,
+            "name": "FrodoGandalf",
+            "imageUrl": "/images/FrodoGandalf.jpg",
+            "poster": "/images/Poster.jpg"
+
+        },
+        {
+            "id": 18,
+            "name": "Galadriel",
+            "imageUrl": "/images/Galadriel.jpg",
+            "poster": "/images/Poster.jpg"
+        },
+        {
+            "id": 19,
+            "name": "Gimli",
+            "imageUrl": "/images/Gimli.jpg",
+            "poster": "/images/Poster.jpg"
+        },
+        {
+            "id": 20,
+            "name": "Gollum",
+            "imageUrl": "/images/Gollum.jpg",
+            "poster": "/images/Poster.jpg"
+        },
+        {
+            "id": 21,
+            "name": "Kuppa",
+            "imageUrl": "/images/Kuppa.jpg",
+            "poster": "/images/Poster.jpg"
+        },
+        {
+            "id": 22,
+            "name": "Legolas",
+            "imageUrl": "/images/Legolas.jpg",
+            "poster": "/images/Poster.jpg"
+        },
+        {
+            "id": 23,
+            "name": "Pippin",
+            "imageUrl": "/images/Pippin.jpg",
+            "poster": "/images/Poster.jpg"
+        },
+        {
+            "id": 24,
+            "name": "Samwise",
+            "imageUrl": "/images/Samwise.jpg",
+            "poster": "/images/Poster.jpg"
+        },
 
 
 
