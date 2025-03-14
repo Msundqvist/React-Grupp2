@@ -3,7 +3,7 @@ import Card from './Card';
 
 const Board = () => {
   return (
-    <div>
+    <div className="board">
       <Card name={'Gandalf'} />
       <Card name={'Gimli'} />
       <Card name={'Golum'} />
