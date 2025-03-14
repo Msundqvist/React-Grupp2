@@ -16,11 +16,17 @@ const Board = () => {
     
     }))
   }
+
+  const pair = (name) => {
+    setCards
+  }
+
 console.log(cards)
   return <div className="board">
     {cards.map((c) => <Card card={c} key={c.id} cardSelected={cardSelected} />)}
 
   </div>;
 };
+
 
 export default Board;
