@@ -4,7 +4,7 @@ import { cards } from '../../Cards.js';
 
 const Board = () => {
   return (
-    <div>
+    <div className="board">
       {cards.map((c) => (
         <Card card={c} key={c.id} />
       ))}
