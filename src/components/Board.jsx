@@ -17,7 +17,7 @@ const Board = () => {
     }))
   }
 console.log(cards)
-  return <div>
+  return <div className="board">
     {cards.map((c) => <Card card={c} key={c.id} cardSelected={cardSelected} />)}
 
   </div>;
